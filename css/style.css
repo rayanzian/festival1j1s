@@ -67,6 +67,10 @@ img {
     width: 100%;
 }
 
+.logo-img {
+	width: 100px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', Arial, sans-serif;
     font-weight: 400;
@@ -76,8 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-    background: #ff432e;
-    border-color: #ff432e;
+    background: #1fcf4e;
+    border-color: #1fcf4e;
     font-size: 16px;
     padding: 8px 15px;
     -webkit-transition: all 0.3s;
@@ -88,8 +92,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary:hover {
     background: transparent;
-    border-color: #ff432e;
-    color: #ff432e;
+    border-color: #1fcf4e;
+    color: #1fcf4e;
 }
 
 .btn-cancel {
@@ -134,9 +138,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .page-header {
-    background: url(../images/banner.jpg) no-repeat;
+    background: url(../images/0_had/jeudeballe.jpg) no-repeat;
+	background-size: 100%;
+	background-position-y: center; 
     padding: 50px 0;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .page-header h1 {
@@ -213,7 +219,7 @@ ul.social-list li:first-child {
 }
 
 ul.social-list li a:hover{
-    background: #FF432E;
+    background: #1fcf4e;
 }
 
 
@@ -314,7 +320,7 @@ a.navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     font-size: 40px;
     padding-top: 20px;
-    color: #ff432e !important;
+    color: #1fcf4e !important;
 }
 
 .navbar-default .navbar-nav {
@@ -355,9 +361,9 @@ a.navbar-brand {
 
 .navbar-default .navbar-nav > li > a.active, 
 .navbar-default .navbar-nav > li:hover > a {
-	border-top: 2px solid #FF432E;
+	border-top: 2px solid #1fcf4e;
     color: #fff;
-    background: #FF432E;
+    background: #1fcf4e;
     //padding: 25px 15px 30px;
 }
 
@@ -372,7 +378,7 @@ a.navbar-brand {
     top: 97%;
     width: 180px;
 	background-color: #fff;
-    border-top: 3px solid #FF432E;
+    border-top: 3px solid #1fcf4e;
     visibility: hidden;
     z-index: 2;
 	opacity: 0;
@@ -418,13 +424,13 @@ a.navbar-brand {
 
 .dropdown > li:hover > a, 
 .sup-dropdown li:hover > a {
-    background: #FF432E;
+    background: #1fcf4e;
     color: #fff;
 }
 
 .dropdown  li a.active, 
 .sup-dropdown li a.active {
-	background: #FF432E;
+	background: #1fcf4e;
     color: #fff;
 }
 
@@ -507,7 +513,7 @@ a.navbar-brand {
 }
 
 .banner .intro-text h1 span {
-    color: #ff432e;
+    color: #1fcf4e;
 }
 
 .banner .intro-text p {
@@ -1209,7 +1215,7 @@ and (min-width : 551px){
 }
 .services-post:hover a,
 .services-post a.active {
-  background: #ff432e;
+  background: #1fcf4e;
   color: #ffffff;
   border:2px solid transparent;
 }
@@ -1467,7 +1473,7 @@ h3.pricing-title {
 }
 
 .footer-address ul li a:hover {
-    color: #FF432E;
+    color: #1fcf4e;
 }
 
 .latest-tweet .media-body {
@@ -1481,7 +1487,7 @@ h3.pricing-title {
 
 .latest-tweet h4.media-heading {
     font-size: 10px;
-    color: #FF432E;
+    color: #1fcf4e;
 }
 
 
@@ -1508,7 +1514,7 @@ h3.pricing-title {
 }
 
 .footer-social ul.social-list li a:hover {
-    background: #FF432E;
+    background: #1fcf4e;
     color: #000;
 }
 
@@ -1545,7 +1551,7 @@ h3.pricing-title {
 }
 
 .copyright-section a:hover {
-    color: #FF432E;
+    color: #1fcf4e;
 }
 
 .copyright-menu li {
@@ -1564,7 +1570,7 @@ h3.pricing-title {
 }
 
 .copyright-menu li a:hover {
-    color: #FF432E;
+    color: #1fcf4e;
 }
 
 /* End Copyright Section */
@@ -1605,7 +1611,7 @@ h3.pricing-title {
     padding: 15px;
     background: #fff;
     font-size: 16px;
-    color: #ff432e;
+    color: #1fcf4e;
     border-radius: 3px;
     position: absolute;
     top: 45%;
@@ -1654,11 +1660,11 @@ h1.post-title a {
 }
 
 .blog-post .post-meta li a:hover {
-    color: #ff432e;
+    color: #1fcf4e;
 }
 
 .blog-post .post-meta li i {
-    color: #ff432e;
+    color: #1fcf4e;
     margin-right: 10px;
 }
 
@@ -1667,23 +1673,23 @@ h1.post-title a {
 }
 
 .blog-post a.btn-primary {
-    background: #ff432e;
-    border: 1px solid #ff432e;
+    background: #1fcf4e;
+    border: 1px solid #1fcf4e;
     font-weight: 300;
 }
 
 .pagination li a {
-    color: #ff432e;
+    color: #1fcf4e;
 }
 
 .pagination li a:hover,
 .pagination li a:focus {
-    color: #ff432e;
+    color: #1fcf4e;
 }
 
 .pagination li.active a {
-    background: #ff432e;
-    border-color: #ff432e;
+    background: #1fcf4e;
+    border-color: #1fcf4e;
 }
 
 .blog-body .pagination {
@@ -1727,7 +1733,7 @@ h1.post-title a {
     padding: 15px;
     background: #fff;
     font-size: 16px;
-    color: #ff432e;
+    color: #1fcf4e;
     border-radius: 3px;
     position: absolute;
     top: 45%;
@@ -1775,7 +1781,7 @@ h1.post-title a {
 }
 
 .single-blog-post .post-meta li a:hover {
-    color: #ff432e;
+    color: #1fcf4e;
 }
 
 .single-blog-post .post-meta li i {
@@ -1825,7 +1831,7 @@ h1.post-title a {
 }
 
 .item-content-footer .rating .active i {
-    color: #ff432e;
+    color: #1fcf4e;
 }
 
 
@@ -2001,7 +2007,7 @@ h1.post-title a {
 }
 
 .sidebar .widget-recent-post h4.media-heading a:hover {
-    color: #ff432e;
+    color: #1fcf4e;
 }
 
 .sidebar .widget-recent-post .media-body li,
@@ -2027,7 +2033,7 @@ h1.post-title a {
 .widget-categories li a.cat-counter {
     margin-left: 20px;
     font-size: 10px;
-    background: #ff432e;
+    background: #1fcf4e;
     color: #fff;
     padding: 3px;
     border-radius: 4px;
@@ -2054,7 +2060,7 @@ h1.post-title a {
 }
 
 .sidebar .tagcloud a:hover {
-    background: #ff432e;
+    background: #1fcf4e;
     color: #fff;
 }
 
