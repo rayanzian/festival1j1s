@@ -141,6 +141,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
 }
 
+.eshop-header {
+    background: url(../images/meng/2019-lollapalooza.jpg) no-repeat;
+	background-size: 100%;
+	background-position-y: center; 
+    padding: 100px 0;
+    margin-top: 0px;
+}
+
 .page-header h1 {
     color: #fff;
 }
