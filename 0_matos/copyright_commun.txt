@@ -1,0 +1,26 @@
+        <!-- Start Copyright Section -->
+        <div id="copyright-section" class="copyright-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="copyright">
+                            Copyright © 2023. Travail libre de la G.G. Company pour le cours de Web ==> <a href="https://themefisher.com/products/sulfur">Thème "Sulfur" par Themefisher</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-5">
+                        <div class="copyright-menu pull-right">
+                            <ul>
+                                <li><a href="#" class="active">Aouatif</a></li>
+								<li><a href="#" class="active">Ranjan</a></li>
+								<li><a href="#" class="active">Rayan</a></li>
+								<li><a href="#" class="active">Meng</a></li>
+								<li><a href="#" class="active">Christian</a></li>
+								<li><a href="#" class="active">Hadrien</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--/.row -->
+            </div><!-- /.container -->
+        </div>
+        <!-- End Copyright Section -->

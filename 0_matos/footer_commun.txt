@@ -1,0 +1,103 @@
+		<!-- Start Footer Section -->
+        <section id="footer-section" class="footer-section">
+            <div class="container">
+                <div class="row">
+					<div class="col-md-3">
+                        <div class="section-heading-2">
+                            <h3 class="section-title">
+                                <span>SOUVENIRS SOUVENIRS... ^^</span>
+                            </h3>
+                        </div>
+                        
+                        <div class="flickr-widget">
+                            <ul class="flickr-list">
+                                <li>
+                                    <a href="images/0_had/footer/f1.jpg" data-lightbox="picture-1">
+                                        <img src="images/0_had/footer/f1.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="images/0_had/footer/f2.jpg" data-lightbox="picture-2">
+                                        <img src="images/0_had/footer/f2.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="images/0_had/footer/f3.jpg" data-lightbox="picture-3">
+                                        <img src="images/0_had/footer/f3.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="images/0_had/footer/f4.jpg" data-lightbox="picture-4">
+                                        <img src="images/0_had/footer/f4.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="images/0_had/footer/f5.jpg" data-lightbox="picture-5">
+                                        <img src="images/0_had/footer/f5.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="images/0_had/footer/f6.jpg" data-lightbox="picture-6">
+                                        <img src="images/0_had/footer/f6.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--/.col-md-3 -->
+                    <div class="col-md-3">
+                        <div class="section-heading-2">
+                            <h3 class="section-title">
+                                <span>Nos locaux</span>
+                            </h3>
+                        </div>
+                        
+                        <div class="footer-address">
+                            <ul>
+                                <li class="footer-contact"><i class="fa fa-home"></i>EPFC asbl (Avenue de l'Astronomie 19 - 1210 Saint-Josse)</li>
+                                <li class="footer-contact"><i class="fa fa-envelope"></i><a href="#">info@1j1s.be</a></li>
+                                <li class="footer-contact"><i class="fa fa-phone"></i>+32 450/11.22.33</li>
+                                <li class="footer-contact"><i class="fa fa-globe"></i><a href="#" target="_blank">www.1j1s.be</a></li>
+                            </ul>
+                        </div>
+                    </div><!--/.col-md-3 -->
+                    
+                    
+                    <div class="col-md-3">
+                        <div class="section-heading-2">
+                            <h3 class="section-title">
+                                <span>Les gens en parlent</span>
+                            </h3>
+                        </div>
+                        
+                        <div class="latest-tweet">
+                            <div class="media">
+                                <div class="media-left">
+                                    <i class="fa fa-twitter fa-2x media-object"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Il y a deux semaines</h4>
+                                    <p>ENFIN un #festival digne de ce nom #pourtouslesgouts ! À ne manquer sous aucun prétexte ! (John S.)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-3 -->
+                    
+
+					<div class="col-md-3">
+                        <div class="section-heading-2">
+                            <h3 class="section-title">
+                                <span>Restons en contact</span>
+                            </h3>
+                        </div>
+                        <div class="subscription">
+                            <p>Recevez les infos de dernière minute ainsi que les programmes des années suivantes !</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Votre m@il" id="name" required data-validation-required-message="Veuillez introduire votre nom">
+                                <input type="submit" class="btn btn-primary" value="S'inscrire">
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.row -->
+            </div><!-- /.container -->
+        </section>
+        <!-- End Footer Section -->

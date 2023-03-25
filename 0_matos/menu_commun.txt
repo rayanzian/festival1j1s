@@ -40,7 +40,7 @@
 								</ul>
                             </li>
 							<li>
-                                <a href="">Infos</a>
+                                <a href="infos.html">Infos</a>
 								<ul class="dropdown">
 									<li>
 										<a href="acces.html">Accès</a>
