@@ -1,0 +1,68 @@
+                        <!-- Code ci-dessous à copier/coller à la place du menu de chaque page ET A NE SURTOUT PAS MODIFIER. Bien regarder le nom des fichiers html liés pour pouvoir renommer les votres ! (C'est donc bien le nom de vos fichiers qui doivent changer et PAS les liens de ce menu..) -->
+						
+						<!-- Start Navigation List -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html">Accueil</a>
+                            </li>
+                            <li>
+                                <a href="">Programmation</a>
+								<ul class="dropdown">
+                                    <li>
+                                        <a href="2023-07-03.html">Lundi 03/07</a>
+                                    </li>
+									<li>
+                                        <a href="2023-07-04.html">Mardi 04/07</a>
+                                    </li>
+									<li>
+                                        <a href="2023-07-05.html">Mercredi 05/07</a>
+                                    </li>
+									<li>
+                                        <a href="2023-07-06.html">Jeudi 06/07</a>
+                                    </li>
+									<li>
+                                        <a href="2023-07-07.html">Vendredi 07/07</a>
+                                    </li>
+									<li>
+                                        <a href="2023-07-08.html">Samedi 08/07</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Achats</a>
+								<ul class="dropdown">
+									<li>
+										<a href="billets.html">Billets</a>
+									</li>
+									<li>
+										<a href="eshop.html">eShop</a>
+									</li>
+								</ul>
+                            </li>
+							<li>
+                                <a href="">Infos</a>
+								<ul class="dropdown">
+									<li>
+										<a href="acces.html">Accès</a>
+									</li>
+									<li>
+										<a href="divers.html">Divers</a>
+									</li>
+									<li>
+										<a href="gen_faq.html">Générales (FAQ)</a>
+									</li>
+								</ul>
+                            </li>
+                            <li>
+                                <a href="">Archives</a>
+								<ul class="dropdown">
+									<li>
+										<a href="2021.html">2021</a>
+									</li>
+									<li>
+										<a href="2022.html">2022</a>
+									</li>
+								</ul>
+                            </li>
+                        </ul>
+                        <!-- End Navigation List -->
