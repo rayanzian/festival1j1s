@@ -67,10 +67,6 @@ img {
     width: 100%;
 }
 
-.logo-img {
-	width: 100px;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', Arial, sans-serif;
     font-weight: 400;
@@ -138,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .page-header {
-    background: url(../images/0_had/jeudeballe.jpg) no-repeat;
+    background: url(../images/0_had/oostende.jpg) no-repeat;
 	background-size: 100%;
 	background-position-y: center; 
     padding: 50px 0;
@@ -2088,7 +2084,7 @@ h1.post-title a {
 
 .form-control {
     border-radius: 0;
-    border: 2px solid #111;
+    border: 2px solid #45ba72;
 }
 
 .contact .form-group {
@@ -2148,4 +2144,15 @@ textarea {
     margin-top: 30px;
 }
 
+/*------------------------------------------*/
+/*	     Custom styles by Hadrien
+/*------------------------------------------*/
 
+.had_logo-img {
+	width: 100px;
+}
+
+.had_emphasis {
+	font-weight: bold;
+	color:#1fcf4e;
+}
