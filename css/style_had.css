@@ -1,0 +1,140 @@
+/*------------------------------------------*/
+/*	     Custom styles by Hadrien
+/*------------------------------------------*/
+
+.had_logo-img {
+	width: 100px;
+}
+
+.had_emphasis {
+	font-weight: bold;
+	color:#1fcf4e;
+}
+
+.contenu_had {
+	margin:0 30px 0 30px;
+}
+
+div.contenu_had h1, div.contenu_had h2 {
+	margin-bottom:30px;
+}
+
+h1 + button.accordion {
+	margin-top: 20px;
+}
+
+.portfolio-section-1 {
+	background:white !important;
+}
+
+ul > h1 {
+	margin-bottom:50px;
+}
+
+.had_blue {
+	background-color: rgba(0, 0, 255, 0.8) !important;
+}
+
+.had_pink {
+	background-color: rgba(255, 0, 255, 0.8) !important;
+}
+
+.had_green {
+	background-color: rgba(0, 255, 0, 0.8) !important;
+}
+
+div.had_green h4, div.had_green p, div.had_green a{
+	color:black !important;
+}
+
+.had_yellow  {
+	background-color: rgba(255, 255, 0, 0.8) !important;
+}
+
+div.had_yellow h4, div.had_yellow p, div.had_yellow a {
+	color: 	#000000 !important;
+}
+
+.had_orange  {
+	background-color: rgba(255, 128, 0, 0.8) !important;
+}
+
+.had_turquoise  {
+	background-color: rgba(0, 255, 255, 0.8) !important;
+}
+
+div.had_turquoise h4, div.had_turquoise p, div.had_turquoise a {
+		color: 	#000000 !important;
+}
+
+/* Boutons du menu de navigation */
+.had_blue_nav:hover > a {
+	background: #0000ff !important;
+	border-top: 2px solid #0000ff !important;
+}
+
+.had_pink_nav:hover > a {
+	background: #ff00ff !important;
+	border-top: 2px solid #ff00ff !important;
+}
+
+.had_green_nav:hover > a {
+	background: #00ff00 !important;
+	border-top: 2px solid #00ff00 !important;
+	color: black !important;
+}
+
+.had_yellow_nav:hover > a {
+	background: #ffff00 !important;
+	border-top: 2px solid #ffff00 !important;
+	color: black !important;
+}
+
+.had_orange_nav:hover > a {
+	background: #ff8000 !important;
+	border-top: 2px solid #ff8000 !important;
+}
+
+.had_turquoise_nav:hover > a {
+	background: #00ffff !important;
+	border-top: 2px solid #00ffff !important;
+	color: black !important;
+}
+
+/*Style acordéon*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+.active_acc, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*Couleurs accordéon customs*/
+.accordion.had_blue {
+	background-color:rgba(0, 0, 255, 0.5) !important;
+	color:black;
+}
+
+.active_acc.had_blue, .accordion.had_blue:hover {
+  background-color:rgba(0, 0, 255, 0.8) !important;
+  color:white;
+}
