@@ -6,7 +6,7 @@
     <head>
 
         <!-- Basic -->
-        <title>1J1S | FAQ</title>
+        <title>1J1S | Kennedy</title>
 
         <!-- Define Charset -->
         <meta charset="utf-8">
@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- Page Description and Author -->
-        <meta name="description" content="1J1S | FAQ">
+        <meta name="description" content="1J1S | Kennedy">
         <meta name="author" content="Hadrien L.">
 
         <!-- Bootstrap CSS  -->
@@ -228,7 +228,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1>Empty Template</h1>
+                            <h1>1J1S | Kennedy</h1>
                         </div>
                     </div>
                 </div>
@@ -239,8 +239,9 @@
         <!-- HAD fil d'Ariane (début) -->
 		<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
 		  <ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="#">Accueil</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Template Vide</li>
+			<li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+			<li class="breadcrumb-item"><a href="index.html#lineup-section">Programmation</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Nigel Kennedy</li>
 		  </ol>
 		</nav>        
         <!-- HAD fil d'Ariane (fin) -->
@@ -249,28 +250,39 @@
 
 		<!-- Début du contenu -->
 
-
-
+		<div class="contenu_had">
 			
+			<h1>Nigel Kennedy</h1>
+			
+			<img src="images/0_had/kennedy.jpg" class="had_img" alt="Nigel Kennedy">
+			
+			<p>Nigel Kennedy, né le 28 décembre 1956 à Brighton, est un violoniste britannique. </p>
+			
+			<!-- Accordéon (emplacement 1)-->
+			<button class="accordion had_pink">Biographie</button>
+			<div class="panel">
+				<p>Enfant, Nigel Kennedy est le protégé du violoniste Yehudi Menuhin qui finance ses études et lui fait intégrer son école. Il rejoint ensuite la prestigieuse Juilliard School de New York, couvé par la chef de file des violonistes américains Dorothy DeLay. Il dira cependant que le moule dans lequel il lui fallait entrer ne lui convenait pas du tout1. Il fait ses débuts en 1977 avec l'Orchestre philharmonique de Londres, dirigé par Riccardo Muti, avec une interprétation des concertos pour violon de Mendelssohn au Royal Festival Hall, puis rejoint l'Orchestre philharmonique de Berlin en 1980. </p>
+			</div>
+			
+			<!-- Accordéon (emplacement 2)-->
+			<button class="accordion had_pink">Reconnaissance mondiale</button>
+			<div class="panel">
+				<p>Il réalise en 1984 son premier enregistrement, les concertos pour violon d'Edward Elgar avec l'Orchestre philharmonique de Londres et Vernon Handley, qui devient disque d'or avec 300 000 exemplaires vendus et reçoit les récompenses d'Enregistrement de l'année 1985 selon le Gramophone magazine et Meilleur album de musique classique aux BPI Awards, puis un album de jazz. Suivant un parcours atypique, Nigel Kennedy poursuit sa collaboration avec les formations traditionnelles comme l'Orchestre philharmonique de New York en 1987, mais aussi avec des grands noms de la musique pop, tels que Paul McCartney ou Kate Bush.</p>
 
+				<p>Son interprétation très dynamique des Quatre Saisons d'Antonio Vivaldi en 1989 lui apporte une reconnaissance mondiale avec un album qui se hissera à la troisième place de classements britanniques avec plus de deux millions d'exemplaires vendus, ce qui lui vaudra une citation au Livre Guinness des records comme Meilleures ventes d'une œuvre classique.</p>
+			</div>
+			
+			<!-- Accordéon (emplacement 3)-->
+			<button class="accordion had_pink">Talent</button>
+			<div class="panel">
+				<p>Kennedy a fait beaucoup pour populariser la musique classique, en particulier auprès des jeunes. En France, sa prestation en direct aux Victoires de la musique classique en 2005 fut particulièrement remarquée et appréciée de l'auditoire[réf. nécessaire] : on le vit parcourir la scène de long en large avec la même énergie qui anime son archet, démarche qui rompt avec l'immobilisme traditionnel des musiciens classiques. Il a aussi joué et enregistré la plupart des plus grands concerti pour violon.</p>
 
+				<p>Bien que sa personnalité agressive soit considérée par certains comme un frein à sa carrière[Qui ?], de nombreux musiciens respectés ont une grande estime pour lui[Qui ?]. Notamment Maxime Vengerov et Avi Abital (ARTE le 10 avril 2022). Avec l'un d'eux, le violoncelliste Lynn Harrell, il a enregistré un duo qui fut bien reçu.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        
+				<p>Kennedy se sent très concerné par le charme brut des concerts, et souvent il enregistre des morceaux entiers ou des mouvements en une seule prise pour préserver cette émotion.[réf. nécessaire] Il introduit également des éléments improvisés dans ses concerts, comme une cadence inspirée de Jimi Hendrix dans le concerto pour violon de Beethoven et bien sûr dans des enregistrements de jazz et de fusion.</p>
+			</div>
+						
+		</div>
         
 		<!-- Fin du contenu -->
         
@@ -407,7 +419,22 @@
         </div>
         <!-- End Copyright Section -->
         
-        
+        <script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+				this.classList.toggle("active_acc");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) {
+				  panel.style.maxHeight = null;
+				} else {
+				  panel.style.maxHeight = panel.scrollHeight + "px";
+				} 
+			  });
+			}
+		</script>
         
         
         

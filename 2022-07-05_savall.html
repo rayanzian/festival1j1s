@@ -1,12 +1,12 @@
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
-<html lang="en">
+<html lang="fr">
 
     <head>
 
         <!-- Basic -->
-        <title>1J1S | FAQ</title>
+        <title>1J1S | Savall</title>
 
         <!-- Define Charset -->
         <meta charset="utf-8">
@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- Page Description and Author -->
-        <meta name="description" content="1J1S | FAQ">
+        <meta name="description" content="1J1S | Savall">
         <meta name="author" content="Hadrien L.">
 
         <!-- Bootstrap CSS  -->
@@ -228,7 +228,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1>Empty Template</h1>
+                            <h1>Jordi Savall</h1>
                         </div>
                     </div>
                 </div>
@@ -239,8 +239,10 @@
         <!-- HAD fil d'Ariane (début) -->
 		<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
 		  <ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="#">Accueil</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Template Vide</li>
+			<li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+			<li class="breadcrumb-item">Archives</li>
+			<li class="breadcrumb-item"><a href="2022.html">2022</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Jordi Savall</li>
 		  </ol>
 		</nav>        
         <!-- HAD fil d'Ariane (fin) -->
@@ -249,29 +251,36 @@
 
 		<!-- Début du contenu -->
 
-
-
+		<div class="contenu_had">
 			
+			<h1>Jordi Savall</h1>
+			
+			<img src="images/0_had/savall.jpg" class="had_img" alt="Jordi Savall">
+			
+			<p>Jordi Savall i Bernadet, né le 1er août 1941 à Igualada (Province de Barcelone, Espagne), est un violiste, chef de chœur et chef d'orchestre espagnol.</p>
+			
+			<!-- Accordéon (emplacement 1)-->
+			<button class="accordion had_turquoise">Formation</button>
+			<div class="panel">
+				<p>Il étudie le violoncelle au conservatoire de Barcelone où il rencontre Montserrat Figueras, sa future épouse. Il s'oriente ensuite vers la viole de gambe au cours d'un séjour à Paris où il découvre les manuscrits de Marin Marais à la Bibliothèque nationale. Il contacte alors Wieland Kuijken. Il poursuit ses études à la Schola Cantorum de Bâle où il reçoit l'enseignement d'August Wenzinger à qui il succèdera. Il y crée l'ensemble Hespèrion XX devenu depuis Hespèrion XXI, avec notamment Hopkinson Smith.</p>
+			</div>
+			
+			<!-- Accordéon (emplacement 2)-->
+			<button class="accordion had_turquoise">Carrière</button>
+			<div class="panel">
+				<p>Il dirige plusieurs ensembles de musique historique : Hespèrion XXI, le Concert des Nations et la Capella Reial de Catalunya, parfois aux côtés de son épouse Montserrat Figueras et de sa fille Arianna.</p>
 
+				<p>En 1991, sa collaboration avec le réalisateur français Alain Corneau pour le film Tous les matins du monde contribua à remettre au goût du jour la musique baroque et faire connaître au grand public la viole de gambe2. </p>
+			</div>
+			
+			<!-- Accordéon (emplacement 3)-->
+			<button class="accordion had_turquoise">Distinctions</button>
+			<div class="panel">
+				<p>Interprète et compositeur réputé, considéré comme un maître de musique baroque, Jordi Savall a reçu de nombreuses distinctions dont : </p>
+			</div>
+							
+		</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        
-        
 		<!-- Fin du contenu -->
         
         
@@ -408,7 +417,22 @@
         <!-- End Copyright Section -->
         
         
-        
+        <script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+				this.classList.toggle("active_acc");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) {
+				  panel.style.maxHeight = null;
+				} else {
+				  panel.style.maxHeight = panel.scrollHeight + "px";
+				} 
+			  });
+			}
+		</script>
         
         
     

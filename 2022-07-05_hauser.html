@@ -1,12 +1,12 @@
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
-<html lang="en">
+<html lang="fr">
 
     <head>
 
         <!-- Basic -->
-        <title>1J1S | FAQ</title>
+        <title>1J1S | Hauser</title>
 
         <!-- Define Charset -->
         <meta charset="utf-8">
@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- Page Description and Author -->
-        <meta name="description" content="1J1S | FAQ">
+        <meta name="description" content="1J1S | Hauser">
         <meta name="author" content="Hadrien L.">
 
         <!-- Bootstrap CSS  -->
@@ -228,7 +228,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1>Empty Template</h1>
+                            <h1>1J1S | Hauser</h1>
                         </div>
                     </div>
                 </div>
@@ -239,8 +239,10 @@
         <!-- HAD fil d'Ariane (début) -->
 		<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
 		  <ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="#">Accueil</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Template Vide</li>
+			<li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+			<li class="breadcrumb-item">Archives</li>
+			<li class="breadcrumb-item"><a href="2022.html">2022</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Stjepan Hauser</li>
 		  </ol>
 		</nav>        
         <!-- HAD fil d'Ariane (fin) -->
@@ -250,27 +252,40 @@
 		<!-- Début du contenu -->
 
 
-
+			<div class="contenu_had">
 			
+				<h1>Stjepan Hauser</h1>
+				
+				<img src="images/0_had/hauser.jpg" class="had_img" alt="Stjepan Hauser">
+				
+				<p>Stjepan Hauser (né le 15 juin 1986) est un violoncelliste croate. De formation classique, il s'est produit en tant que soliste avec de nombreux orchestres dans le monde entier. Il est membre du groupe 2Cellos en compagnie de Luka Šulić.</p>
 
+				<!-- Accordéon (emplacement 1)-->
+				<button class="accordion had_blue">Biographie</button>
+				<div class="panel">
+					<p>Hauser est né à Pula en Croatie1, dans une famille de musiciens dans laquelle il commence son apprentissage musical. Sa mère est percussionniste, son père est journaliste. Il fait ses études à Rijeka et à Zagreb, puis étudie avec Natalia Pavlutskaya au Trinity College of Music de Londres, puis avec Ralph Kirshbaum à Manchester et avec Bernard Greenhouse aux USA.</p>
 
+					<p>Il rencontre lors d'un camp d'été musical à l'âge de 14 ans Luka Šulić, avec qui il va former le groupe 2Cellos.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        
+					<p>Hauser s'est produit en concert dans plus de 40 pays, en particulier au Wigmore Hall, Royal Albert Hall, Amsterdam Concertgebouw, Southbank Centre, etc.</p>
+				</div>
+				
+				<!-- Accordéon (emplacement 2)-->
+				<button class="accordion had_blue">Discographie</button>
+				<div class="panel">
+					<ul class="had_liste">
+						<li>2010 : Song To The Moon, autoproduit/ Hauser Classics</li>
+						<li>2011 : Urban & Hauser, Aquarius Records</li>
+						<li>2011 : Christopher Ball: Music for Cello, Musical Concepts</li>
+						<li>2011 : None Rota Centenary Album, Musical Concepts</li>
+						<li>2011 : Brahms, Beethoven & Bruch for Clarinet, Cello & Piano, Musical Concepts</li>
+						<li>2012 : Noć Nek' Tiho Svira, Aquarius Records</li>
+						<li>2020 : Classic (avec le London Symphony Orchestra), Sony Masterworks</li>
+						<li>2020 : Plays Morricone (avec le Prague Symphony Orchestra), Sony Masterworks</li>
+					</ul>
+				</div>
+												
+			</div>
         
 		<!-- Fin du contenu -->
         
@@ -408,7 +423,22 @@
         <!-- End Copyright Section -->
         
         
-        
+        <script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+				this.classList.toggle("active_acc");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) {
+				  panel.style.maxHeight = null;
+				} else {
+				  panel.style.maxHeight = panel.scrollHeight + "px";
+				} 
+			  });
+			}
+		</script>
         
         
     
