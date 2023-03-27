@@ -524,6 +524,19 @@ a.navbar-brand {
     background-size: cover;
 }
 
+.bannerProg {
+    text-align: center;
+    color: #fff;
+    background: url(../images/bannerRayan.jpg) no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height: 200px;
+}
+
 .banner .overlay {
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -533,6 +546,14 @@ a.navbar-brand {
 .intro-text {
     position: relative;
     padding: 20% 0 15% 0;
+}
+
+.intro-textProg h2 {
+    position: relative;
+    padding: 3% 0 15% 0;
+	font-size: 60px;
+	-webkit-text-stroke: 2px #555588;
+	color: #2bd258;
 }
 
 .banner .intro-text h1 {    
@@ -588,10 +609,46 @@ a.navbar-brand {
     color: #111;
 }
 
+/*---------------------------------------------------------*/
+/* Start Groups Section                                  */
+/*---------------------------------------------------------*/
+
+.groupe {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear{
+	clear: both;
+}
+
+.groupe p{
+	margin-right: 50px;
+}
+
+.lineup-section h3 {
+	color: #555588;
+	border-bottom: solid 2px #2bd258;
+}
+.lineup-section p {
+	text-align: center;
+}
+
+.lineup-section img {
+	border: solid 2px #555588;
+}
 
 
 
-
+.lineup-section td:hover {
+  opacity: 0.4;
+}
 
 
 
@@ -686,6 +743,12 @@ iframe {
 	.size15 {
 		font-size: 12px;
 	}
+}
+
+
+
+td:hover {
+  opacity: 0.4;
 }
 
 /** Toggles & Accordion **/
