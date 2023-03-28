@@ -6,7 +6,7 @@
                                 <a href="index.html">Accueil</a>
                             </li>
                             <li>
-                                <a href="">Programmation</a>
+                                <a href="index.html#lineup-section">Programmation</a>
 								<ul class="dropdown">
                                     <li>
                                         <a href="2023-07-03.html">Lundi 03/07</a>

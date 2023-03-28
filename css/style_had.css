@@ -2,6 +2,18 @@
 /*	     Custom styles by Hadrien
 /*------------------------------------------*/
 
+.had_img {
+    width: 400px!important;
+	display:inline!important;
+	float:!important;
+	margin-bottom:50px;
+	border-radius: 10%;
+}
+
+.had_liste {
+	list-style-type: circle!important;
+	padding-left:20px;
+}
 .had_logo-img {
 	width: 100px;
 }
@@ -118,6 +130,7 @@ div.had_turquoise h4, div.had_turquoise p, div.had_turquoise a {
 
 .active_acc, .accordion:hover {
   background-color: #ccc;
+  text-indent:50px;
 }
 
 .panel {
@@ -137,4 +150,54 @@ div.had_turquoise h4, div.had_turquoise p, div.had_turquoise a {
 .active_acc.had_blue, .accordion.had_blue:hover {
   background-color:rgba(0, 0, 255, 0.8) !important;
   color:white;
+}
+
+.accordion.had_pink {
+	background-color:rgba(255, 0, 255, 0.5) !important;
+	color:black;
+}
+
+.active_acc.had_pink, .accordion.had_pink:hover {
+  background-color:rgba(255, 0, 255, 0.8) !important;
+  color:white;
+}
+
+.accordion.had_green {
+	background-color:rgba(0, 255, 0, 0.5) !important;
+	color:black;
+}
+
+.active_acc.had_green, .accordion.had_green:hover {
+  background-color:rgba(0, 255, 0, 0.8) !important;
+  color:black;
+}
+
+.accordion.had_orange {
+	background-color:rgba(255, 128, 0, 0.5) !important;
+	color:black;
+}
+
+.active_acc.had_orange, .accordion.had_orange:hover {
+  background-color:rgba(255, 128, 0, 0.8) !important;
+  color:black;
+}
+
+.accordion.had_yellow {
+	background-color:rgba(255, 255, 0, 0.5) !important;
+	color:black;
+}
+
+.active_acc.had_yellow, .accordion.had_yellow:hover {
+  background-color:rgba(255, 255, 0, 0.8) !important;
+  color:black;
+}
+
+.accordion.had_turquoise {
+	background-color:rgba(0, 255, 255, 0.5) !important;
+	color:black;
+}
+
+.active_acc.had_turquoise, .accordion.had_turquoise:hover {
+  background-color:rgba(0, 255, 255, 0.8) !important;
+  color:black;
 }

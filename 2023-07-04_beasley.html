@@ -6,7 +6,7 @@
     <head>
 
         <!-- Basic -->
-        <title>1J1S | FAQ</title>
+        <title>1J1S | Beasley</title>
 
         <!-- Define Charset -->
         <meta charset="utf-8">
@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- Page Description and Author -->
-        <meta name="description" content="1J1S | FAQ">
+        <meta name="description" content="1J1S | Beasley">
         <meta name="author" content="Hadrien L.">
 
         <!-- Bootstrap CSS  -->
@@ -228,7 +228,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1>Empty Template</h1>
+                            <h1>1J1S | Beasley</h1>
                         </div>
                     </div>
                 </div>
@@ -239,8 +239,9 @@
         <!-- HAD fil d'Ariane (début) -->
 		<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
 		  <ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="#">Accueil</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Template Vide</li>
+			<li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+			<li class="breadcrumb-item"><a href="index.html#lineup-section">Programmation</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Marco Beasley</li>
 		  </ol>
 		</nav>        
         <!-- HAD fil d'Ariane (fin) -->
@@ -250,26 +251,40 @@
 		<!-- Début du contenu -->
 
 
-
+		<div class="contenu_had">
 			
+			<h1>Marco Beasley</h1>
+			
+			<img src="images/0_had/beasley.jpg" class="had_img" alt="Marco Beasley">
+			
+			<p>Marco Beasley (né le 26 février 1957 à Naples) est un ténor et un historien de la musique. Il est spécialisé dans l'interprétation de la musique du début du baroque italien. </p>
+			
+			<!-- Accordéon (emplacement 1)-->
+			<button class="accordion had_yellow">Biographie</button>
+			<div class="panel">
+				<p>De père anglais et de mère italienne, Marco Beasley grandit à Naples où il est très tôt en contact avec la musique traditionnelle napolitaine et avec la musique ancienne et où son talent vocal est très rapidement découvert. Au début des années 1980, il étudie la musique vocale de la Renaissance et de la période baroque ainsi que la littérature musicale des XVe et XVIe siècles. Il approfondit sa connaissance de la musique profane de l'Italie méridionale par l'étude des principes de base du récitatif et de la polyphonie édictés par la Camerata fiorentina. Il suit également l'enseignement de Cathy Berberian dont il conserve une impression ineffable.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+				<p>En 1984, il fonde avec Stefano Rocco et Guido Morini l'ensemble Accordone avec lequel il joue ses propres compositions mais aussi des œuvres du xixe siècle et de l'époque moderne et des chansons napolitaines comme Lo guarracino qu'il chante avec Pino De Vittorio (it) et l'ensemble Accordone1. Il joue également avec des artistes comme Christina Pluhar et des ensembles tels que L'Arpeggiata ou le Nederlands Blazers Ensemble (nl). Le jeu de Marco Beasley est caractérisé par sa grande vitalité, une importante sensibilité, une vaste gamme de timbres différents et une présence scénique remarquable.</p>
+			</div>
+			
+			<!-- Accordéon (emplacement 2)-->
+			<button class="accordion had_yellow">Discographie</button>
+			<div class="panel">
+				<ul class="had_liste">
+					<li>1994 : Canzoni Villanesche: Neapolitan Love Songs of the 16th Century (avec Daedalus Ensemble)</li>
+					<li>1998 : Past Time in Good Company (avec Christina Pluhar et L'Arpeggiata)</li>
+					<li>2002 : Il sogno d'Orfeo (avec l'ensemble Accordone)</li>
+					<li>2002 : L'amore ostinato (avec Accordone)</li>
+					<li>2002 : Vox clamans in solitudine (avec Accordone)</li>
+					<li>2002 : Novellette e madrigali (avec les Madrigalisti delle RSI et l'ensemble Vanitas)</li>
+					<li>2003 : La bella noeva (avec Accordone)</li>
+					<li>2003 : Homo fugit velut umbra (avec Christina Pluhar et L'Arpeggiata)</li>
+					<li>2003 : La tarantella-antidotum (avec Christina Pluhar et L'Arpeggiata)</li>
+				</ul>
+			</div>
+			
+						
+		</div>
         
         
 		<!-- Fin du contenu -->
@@ -408,7 +423,22 @@
         <!-- End Copyright Section -->
         
         
-        
+        <script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+				this.classList.toggle("active_acc");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) {
+				  panel.style.maxHeight = null;
+				} else {
+				  panel.style.maxHeight = panel.scrollHeight + "px";
+				} 
+			  });
+			}
+		</script>
         
         
     
