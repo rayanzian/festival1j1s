@@ -687,6 +687,10 @@ nav li{
 	padding: 18px;
 	border: solid white 2px;
 }
+nav li:hover{
+	opacity: 0.8;
+	background-color: magenta;
+}
 
 nav a{
     display: block;
@@ -743,6 +747,24 @@ iframe {
 	.size15 {
 		font-size: 12px;
 	}
+}
+
+.vignettesAccueilLeft h3 {
+	width: 50%;
+	font-size: 40px;
+	float: left;
+	padding-left: 3%;
+}
+
+.vignettesAccueilRight h3 {
+	width: 50%;
+	font-size: 40px;
+	float: right;
+	text-align: right;
+	padding-right: 3%;
+}
+.journee img {
+	width: 100%;
 }
 
 
