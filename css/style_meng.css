@@ -1,0 +1,15 @@
+.eshop-header {
+    background: url(../images/meng/2019-lollapalooza.jpg) no-repeat;
+	background-size: 100%;
+	background-position-y: center; 
+    padding: 100px 0;
+    margin-top: 0px;
+}
+
+.had_img {
+    width: 400px!important;
+	display:inline!important;
+	float:!important;
+	margin-bottom:50px;
+	border-radius: 10%;
+}
