@@ -618,6 +618,11 @@ a.navbar-brand {
 	margin-bottom: 100px;
 }
 
+.groupe img:hover{
+	width: 45%;
+	border: solid #2bd258 5px;
+}
+
 .left {
 	float: left;
 }
@@ -641,13 +646,14 @@ a.navbar-brand {
 }
 
 .lineup-section img {
-	border: solid 2px #555588;
+	border: solid 3px #555588;
 }
 
 
 
 .lineup-section td:hover {
   opacity: 0.4;
+  width: 45%;
 }
 
 
