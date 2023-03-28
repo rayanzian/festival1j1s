@@ -1037,7 +1037,7 @@ iframe {
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
-    transition: all 0.5s;
+    transition: all 0.5s;;
 }
 @media only screen 
 and (max-width : 550px) {
@@ -1148,7 +1148,7 @@ and (min-width : 551px){
 }
 
 .portfolio-item:hover .portfolio-caption {
-    background-color: rgba(255, 67, 46, 0.8);
+    background-color: rgba(238, 130, 238, 0.8);
     opacity: 1;
     filter: Alpha(Opacity=100);
 }
