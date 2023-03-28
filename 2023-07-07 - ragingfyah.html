@@ -6,7 +6,7 @@
     <head>
 
         <!-- Basic -->
-        <title>1J1s | Eshop</title>
+        <title>1J1S | Mardi 05/07/22</title>
 
         <!-- Define Charset -->
         <meta charset="utf-8">
@@ -15,8 +15,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- Page Description and Author -->
-        <meta name="description" content="1J1S - eshop">
-        <meta name="author" content="Te Meng chhun">
+        <meta name="description" content="1J1S | Mardi 05/07/22">
+        <meta name="author" content="Hadrien L.">
 
         <!-- Bootstrap CSS  -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
@@ -37,27 +37,42 @@
 
         <!-- Sulfur CSS Styles  -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<!-- Had CSS Styles  -->
+        <link rel="stylesheet" type="text/css" href="css/style_had.css">
 
         <!-- Responsive CSS Style -->
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
+		<!-- Icon of HAD -->
+		<link rel="icon" type="image/x-icon" href="images/0_had/sun.ico">
 
+         <!-- Billeterie CSS -->
+         <link rel="stylesheet" type="text/css" href="css/billeterie.css">
+
+        <!-- Sulfur JS File -->
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/modernizrr.js"></script>
-		
-		<style>
-		h1 {
-		font-size: 4em;
-		color: white;
-		}
-		</style>
-
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/count-to.js"></script>
+        <script src="js/styleswitcher.js"></script>
+        
+        <script src="js/map.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="js/script.js"></script>
 
     </head>
 
     <body>
     
         <header class="clearfix">
-        
+
             <!-- Start Top Bar -->
             <div class="container">
                 <div class="row">
@@ -119,7 +134,7 @@
             </div><!-- .container -->
             <!-- End Top Bar -->
         
-			<!-- Start  Logo & Naviagtion  -->
+            <!-- Start  Logo & Naviagtion  -->
             <div class="navbar navbar-default navbar-top">
                 <div class="container">
                     <div class="navbar-header">
@@ -132,72 +147,71 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         
-                        
-                        <!-- Start Navigation List -->
+						<!-- Start Navigation List -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li>
+                            <li class="had_pink_nav">
                                 <a href="index.html">Accueil</a>
                             </li>
-                            <li>
+                            <li class="had_green_nav">
                                 <a href="">Programmation</a>
 								<ul class="dropdown">
-                                    <li>
+                                    <li class="had_blue_nav">
                                         <a href="2023-07-03.html">Lundi 03/07</a>
                                     </li>
-									<li>
+									<li class="had_orange_nav">
                                         <a href="2023-07-04.html">Mardi 04/07</a>
                                     </li>
-									<li>
+									<li class="had_turquoise_nav">
                                         <a href="2023-07-05.html">Mercredi 05/07</a>
                                     </li>
-									<li>
+									<li class="had_yellow_nav">
                                         <a href="2023-07-06.html">Jeudi 06/07</a>
                                     </li>
-									<li>
+									<li class="had_green_nav">
                                         <a href="2023-07-07.html">Vendredi 07/07</a>
                                     </li>
-									<li>
+									<li class="had_pink_nav">
                                         <a href="2023-07-08.html">Samedi 08/07</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="had_orange_nav">
                                 <a href="">Achats</a>
 								<ul class="dropdown">
-									<li>
+									<li class="had_blue_nav">
 										<a href="billets.html">Billets</a>
 									</li>
-									<li>
+									<li class="had_yellow_nav">
 										<a href="eshop.html">eShop</a>
 									</li>
 								</ul>
                             </li>
-							<li>
+							<li class="had_yellow_nav">
                                 <a href="infos.html">Infos</a>
 								<ul class="dropdown">
-									<li>
+									<li class="had_green_nav">
 										<a href="acces.html">Accès</a>
 									</li>
-									<li>
+									<li class="had_turquoise_nav">
 										<a href="divers.html">Divers</a>
 									</li>
-									<li>
+									<li class="had_orange_nav">
 										<a href="gen_faq.html">Générales (FAQ)</a>
 									</li>
 								</ul>
                             </li>
-                            <li>
+                            <li class="had_turquoise_nav">
                                 <a href="">Archives</a>
 								<ul class="dropdown">
-									<li>
+									<li class="had_yellow_nav">
 										<a href="2021.html">2021</a>
 									</li>
-									<li>
+									<li class="had_orange_nav">
 										<a href="2022.html">2022</a>
 									</li>
 								</ul>
                             </li>
-							<li>
+							<li class="had_blue_nav">
                                 <a href="contact.html">Contact</a>
                             </li>
                         </ul>
@@ -211,12 +225,12 @@
         
         
         <!-- Start Header Section -->
-        <div class="eshop-header">
+        <div class="page-header">
             <div class="overlay">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-							<center><h1 class= "solid">2022 - Journée 4</h1></center>
+                            <h1>1J1S | Mardi 05/07/22</h1>
                         </div>
                     </div>
                 </div>
@@ -224,71 +238,36 @@
         </div>
         <!-- End Header Section -->
         
+        <!-- HAD fil d'Ariane (début) -->
         
-<section id="team-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
-                        <h2></h2>
-                    </div>                        
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="300ms">
-				<a href="https://www.youtube.com/watch?v=sVTy_wmn5SU">
-                    <div class="team-member">
-                        <img src="images/meng/NewJ.png" class="img-responsive" alt="New Jeans">
-                        <div class="team-details">
-                            <h4>New Jeans</h4>
-                            <p>Kpop</p>
-							<p>NewJeans est un girl group sud-coréen formé en 2022 par le label ADOR, une filiale de Hybe Corporation. Le groupe se compose de cinq membres.</p>
-                        </div>
-                    </div>
-				</a>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="600ms">
-				<a href="https://www.youtube.com/watch?v=uR8Mrt1IpXg">
-                    <div class="team-member">
-                        <img src="images/meng/redV.png" class="img-responsive" alt="red_velvet">
-                        <div class="team-details">
-                            <h4>Red Velvet</h4>
-                            <p>Kpop</p>
-							<p>Red Velvet fait ses débuts officiel au Music Bank, le 1er août 20146. Leur premier single, Happiness, est dévoilé numériquement le 4 août7.</p>
-                        </div>
-                    </div>
-				</a>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="900ms">
-				<a href="https://www.youtube.com/watch?v=GEo5bmUKFvI">
-                    <div class="team-member">
-                        <img src="images/meng/loona.png" class="img-responsive" alt="Loona">
-                        <div class="team-details">
-                            <h4>Loona</h4>
-                            <p>Kpop</p>
-							<p>LOONA, stylisé LOOΠΔ est un girl group sud-coréen créé par Blockberry Creative, une filiale de Polaris Entertainment.</p>
-                        </div>
-                    </div>
-				</a>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1200ms">
-				<a href="https://www.youtube.com/watch?v=lT7Q93fy1us">
-                    <div class="team-member">
-                        <img src="images/meng/Jaypark.png" class="img-responsive" alt="Jay Park">
-                        <div class="team-details">
-                            <h4>Jay Park</h4>
-                            <p>RnB</p>
-							<p>Jay Park, né le 25 avril 1987, est un rappeur danseur, producteur, b-boy, auteur-compositeur, mannequin, et acteur américain d'ascendance sud-coréenne.</p>
-                        </div>
-                    </div>
-				</a>
-                </div><!-- /.col-md-3 -->
-            </div>
+		<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Accueil</a></li>
+			<li class="breadcrumb-item">Programmation</li>
+			<li class="breadcrumb-item active" aria-current="page">Vendredi 07/07/23</li>
+		  </ol>
+		</nav>        
+        <!-- HAD fil d'Ariane (fin) -->
+        
+
+
+		<!-- Début du contenu -->
+        <div><h1>RAGING FYAH</h1></div>
+        <div class="description-artistes">Nominé au Grammy Award 2017,  catégorie, meilleur album reggae de l’année,  Ils sont jeunes, plein d’humanité d’espoir et de talent, les musiciens et chanteurs de Raging Fyah ont récemment redoré la scène reggae mondiale avec un son entre roots et new roots, et la voix extra de Kumar Bent. On attendait depuis longtemps un groupe capable de vous emmener loin, de vous faire voyager entre la tradition et la modernité, de recréer le lien sacré entre les fondateurs et les héritiers du mouvement reggae.</div><div><strong>À ne pas manquer !</strong></div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RU7l8vX0tOk?start=61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-    </section>
-    <!-- End Team Member Section -->
-     
-      <!-- Start Footer Section -->
+        <div>
+            <a href="https://reggae.fr/artiste-biographie/1076_Raging-Fyah.html">
+                <input class="bouton-site-artiste" type="button" value="SITE DE L'ARTISTE">
+            </a>
+        </div>
+            
+       
+		<!-- Fin du contenu -->
+        
+        
+		<!-- Start Footer Section -->
         <section id="footer-section" class="footer-section">
             <div class="container">
                 <div class="row">
@@ -393,7 +372,7 @@
         <!-- End Footer Section -->
         
         
-                <!-- Start Copyright Section -->
+        <!-- Start Copyright Section -->
         <div id="copyright-section" class="copyright-section">
             <div class="container">
                 <div class="row">
@@ -422,21 +401,7 @@
         
         
         
-       <!-- Sulfur JS File -->
-        <script src="js/jquery-2.1.3.min.js"></script>
-        <script src="js/jquery-migrate-1.2.1.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/jquery.appear.js"></script>
-        <script src="js/jquery.fitvids.js"></script>
-        <script src="js/jquery.nicescroll.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/count-to.js"></script>
-        <script src="js/styleswitcher.js"></script>
         
-        <script src="js/map.js"></script>
-        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <script src="js/script.js"></script> 
         
     
     </body>
