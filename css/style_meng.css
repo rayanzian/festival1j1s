@@ -6,10 +6,6 @@
     margin-top: 0px;
 }
 
-.had_img {
-    width: 400px!important;
-	display:inline!important;
-	float:!important;
-	margin-bottom:50px;
-	border-radius: 10%;
+.row {
+	display: flex;
 }
